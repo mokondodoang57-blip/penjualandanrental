@@ -1,0 +1,630 @@
+
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jual dan menyewakan mesin di jombang dan sekitarnya  - Layanan Terpercaya & Terjangkau</title>
+    <meta name="description"
+        content="Sewa mesin fotocopy berkualitas di Jombang dengan harga kompetitif. Melayani kantor, sekolah, dan bisnis lainnya.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e40af',
+                        secondary: '#0369a1',
+                        accent: '#f59e0b',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap');
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #1e40af 0%, #0369a1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-bg {
+            background: linear-gradient(rgba(30, 64, 175, 0.8), rgba(3, 105, 161, 0.8)),
+                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23f0f9ff" width="1200" height="600"/><circle cx="100" cy="100" r="80" fill="%23dbeafe" opacity="0.5"/><circle cx="1100" cy="500" r="120" fill="%23dbeafe" opacity="0.5"/></svg>');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(30, 64, 175, 0.15);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #1e40af 0%, #0369a1 100%);
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 24px rgba(30, 64, 175, 0.3);
+        }
+
+        #backToTop {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #1e40af 0%, #0369a1 100%);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 12px rgba(30, 64, 175, 0.4);
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+        #backToTop:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(30, 64, 175, 0.6);
+        }
+
+        #backToTop.show {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body class="bg-white">
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center space-x-2">
+                    <div class="w-10 h-10 rounded-lg flex items-center justify-center">
+                        <img src="images/logo.png" alt="Logo" class="w-10 h-10 object-contain">
+                    </div>
+                    <div><img src="https://i.ibb.co.id/v4YpS7V/logo-ADM.jpg" class="h-16 w-auto object-contain" alt="UD ALVA">
+                        <p class="font-bold text-primary text-lg">UD. ALVA DIGITAL MEDIA COPIER </p>
+                        <p class="text-xs text-gray-600">Pusat PenJualan & Sewa mesin Fotocopy di Jombang</p>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#services" class="text-gray-700 hover:text-primary transition">Layanan</a>
+                    <a href="#products" class="text-gray-700 hover:text-primary transition">Produk</a>
+                    <a href="#contact" class="text-gray-700 hover:text-primary transition">Hubungi</a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-bg py-20 md:py-32 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                        Solusi Sewa Mesin Fotocopy <span class="text-accent">Terpercaya</span>
+                    </h1>
+                    <p class="text-lg md:text-xl text-gray-100 mb-8 leading-relaxed">
+                        Menyediakan mesin fotocopy berkualitas dengan harga terjangkau untuk kantor, sekolah, dan bisnis
+                        Anda di jombang dan sekitarnya .
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="#contact"
+                            class="btn-primary text-white px-8 py-3 rounded-lg font-semibold text-base text-center">
+                            Konsultasi Gratis <li>WhatsApp: <a href="https://wa.me/628978349000" target="_blank"
+                        </a>
+                        <a href="#contact"
+                            class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-primary transition text-center">
+                            Lihat Katalog
+                        </a>
+                    </div>
+                </div>
+                <div class="mt-8 md:mt-0">
+                    <div class="relative">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-r from-accent to-transparent rounded-2xl opacity-20 blur-2xl">
+                        </div>
+                        <https://i.ibb.co.id/PZ8rR0S/kyocera-m4125.jpg" alt="Mesin fotocopy modern" class="relative rounded-2xl shadow-2xl">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 md:py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Mengapa Memilih Kami?</h2>
+                <div class="w-16 h-1 bg-gradient-to-r from-primary to-secondary mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="card-hover bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Kualitas Terjamin</h3>
+                    <p class="text-gray-600">Mesin fotocopy terawat dengan teknologi terkini dan hasil cetak berkualitas
+                        tinggi.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="card-hover bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Harga Kompetitif</h3>
+                    <p class="text-gray-600">Penawaran terbaik dengan paket sewa fleksibel yang sesuai dengan kebutuhan
+                        bisnis Anda.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="card-hover bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Pengiriman Cepat</h3>
+                    <p class="text-gray-600">Layanan pengiriman dan instalasi cepat dengan tim profesional yang sudah berpengalaman di bidangnya selama bertahun-tahun dan siap
+                        membantu segala permasalahan fotocopy anda.</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="card-hover bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.172l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Maintenance Gratis</h3>
+                    <p class="text-gray-600">Layanan perawatan dan perbaikan gratis untuk memastikan mesin selalu dalam
+                        kondisi Prima dan optimal.</p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="card-hover bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Paket sangat Fleksibel</h3>
+                    <p class="text-gray-600">Berbagai pilihan paket sewa bulanan hingga tahunan dengan benefit
+                        eksklusif dan menarik.</p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="card-hover bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.172l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Customer Support 24/7</h3>
+                    <p class="text-gray-600">Tim support kami siap membantu Anda kapan saja untuk segala kebutuhan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Produk Unggulan Kami</h2>
+                <div class="w-16 h-1 bg-gradient-to-r from-primary to-secondary mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Product 1 -->
+                <div
+                    class="card-hover bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl overflow-hidden border border-blue-200">
+                    <div class="p-8">
+                        <img src="images/picts-2.jpeg" alt="Kyocera ECOSYS M2040dn"
+                            class="w-full rounded-lg mb-6 object-cover h-64">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">Kyocera ECOSYS M2040dn</h3>
+                        <p class="text-accent font-semibold mb-4">Rp 350.000/bulan</p>
+                        <p class="text-gray-700 mb-6">Mesin fotocopy berkecepatan tinggi dengan kapasitas 40 halaman per
+                            menit. Cocok untuk kantor menengah dengan volume cetak tinggi.</p>
+                        <div class="space-y-3 mb-6">
+                            <div class="flex items-center text-gray-700">
+                                <span class="font-semibold w-32">Fungsi:</span>
+                                <span>Copy, Print, Scan, Color</span>
+                            </div>
+                            <div class="flex items-center text-gray-700">
+                                <span class="font-semibold w-32">Kecepatan:</span>
+                                <span>40 ppm</span>
+                            </div>
+                            <div class="flex items-center text-gray-700">
+                                <span class="font-semibold w-32">Ukuran Kertas:</span>
+                                <span>A4 - Folio</span>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/6283812558000?text=Halo,%20saya%20tertarik%20dengan%20Kyocera%20ECOSYS%20M2040dn"
+                            target="_blank" rel="noopener noreferrer"
+                            class="w-full btn-primary text-white py-3 rounded-lg font-semibold hover:shadow-lg transition text-center block">
+                            Pesan Sekarang
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div
+                    class="card-hover bg-gradient-to-br from-cyan-50 to-cyan-100 rounded-2xl overflow-hidden border border-cyan-200">
+                    <div class="p-8">
+                        <img src="images/picts-3.jpeg" alt="Kyocera ECOSYS M2535dn"
+                            class="w-full rounded-lg mb-6 object-cover h-64">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">Kyocera ECOSYS M2535dn</h3>
+                        <p class="text-accent font-semibold mb-4">Rp 300.000/bulan</p>
+                        <p class="text-gray-700 mb-6">Mesin fotocopy refurbished dengan kualitas terjamin. Ekonomis
+                            untuk usaha kecil dan menengah dengan performa handal.</p>
+                        <div class="space-y-3 mb-6">
+                            <div class="flex items-center text-gray-700">
+                                <span class="font-semibold w-32">Fungsi:</span>
+                                <span>Copy, Print, Scan, Color</span>
+                            </div>
+                            <div class="flex items-center text-gray-700">
+                                <span class="font-semibold w-32">Kecepatan:</span>
+                                <span>35 ppm</span>
+                            </div>
+                            <div class="flex items-center text-gray-700">
+                                <span class="font-semibold w-32">Ukuran Kertas:</span>
+                                <span>F4 Format</span>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/6283812558000?text=Halo,%20saya%20tertarik%20dengan%20Kyocera%20ECOSYS%20M2535dn"
+                            target="_blank" rel="noopener noreferrer"
+                            class="w-full btn-primary text-white py-3 rounded-lg font-semibold hover:shadow-lg transition text-center block">
+                            Pesan Sekarang
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Layanan Section -->
+    <section id="services" class="py-16 md:py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Layanan Kami</h2>
+                <div class="w-16 h-1 bg-gradient-to-r from-primary to-secondary mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-lg text-center">
+                    <div class="text-4xl mb-3">📋</div>
+                    <h3 class="font-bold text-lg text-gray-900 mb-2">Sewa Mesin</h3>
+                    <p class="text-gray-600 text-sm">Paket sewa bulanan dan tahunan dengan harga terjangkau</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg text-center">
+                    <div class="text-4xl mb-3">🔧</div>
+                    <h3 class="font-bold text-lg text-gray-900 mb-2">Maintenance</h3>
+                    <p class="text-gray-600 text-sm">Perawatan berkala dan perbaikan gratis selama masa sewa</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg text-center">
+                    <div class="text-4xl mb-3">🚚</div>
+                    <h3 class="font-bold text-lg text-gray-900 mb-2">Pengiriman</h3>
+                    <p class="text-gray-600 text-sm">Pengiriman dan instalasi cepat ke seluruh Jombang dan sekitarnya</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg text-center">
+                    <div class="text-4xl mb-3">💰</div>
+                    <h3 class="font-bold text-lg text-gray-900 mb-2">Konsultasi</h3>
+                    <p class="text-gray-600 text-sm">Konsultasi gratis untuk memilih mesin yang tepat dan sesuai dengan kebutuhan kantor atau tempat usaha anda</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 md:py-24 bg-gradient-to-r from-primary to-secondary text-white">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Siap Meningkatkan Produktivitas Bisnis Anda?</h2>
+            <p class="text-lg md:text-xl text-blue-100 mb-10">Hubungi kami sekarang untuk konsultasi gratis dan
+                penawaran spesial</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://wa.me/6283812558000?text=Halo,%20saya%20ingin%20konsultasi%20gratis%20tentang%20sewa%20mesin%20fotocopy"
+                    target="_blank" rel="noopener noreferrer"
+                    class="bg-white text-primary px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition text-center">
+                    Hubungi Kami
+                </a>
+                <a href="https://wa.me/6283812558000?text=Halo,%20saya%20ingin%20meminta%20katalog%20penawaran%20produk"
+                    target="_blank" rel="noopener noreferrer"
+                    class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:bg-opacity-10 transition text-center">
+                    Katalog Penawaran
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Gallery Section -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Galeri & Testimoni Pelanggan</h2>
+                <p class="text-lg text-gray-600 mb-2">Kepercayaan dan kepuasan pelanggan adalah prioritas kami</p>
+                <div class="w-16 h-1 bg-gradient-to-r from-primary to-secondary mx-auto"></div>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-12">
+                <div class="card-hover overflow-hidden rounded-lg shadow-md">
+                    <https://i.ibb.co.id/5Wv08GZ/proses-unboxing-adm.jpg" alt="Instalasi mesin fotocopy" class="w-full h-64 object-cover">
+              
+                </div>
+                <div
+                    class="card-hover overflow-hidden rounded-lg shadow-md bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
+                    <div class="text-center text-white p-6">
+                        <p class="text-4xl font-bold mb-2">100+</p>
+                        <p class="text-sm">review  dari Pelanggan yang Puas</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonials -->
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-xl shadow-sm border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-accent">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4 italic">"Pelayanan sangat memuaskan! Mesin fotocopy yang disewa
+                        berkualitas tinggi dan tim teknisi sangat responsif. Sangat membantu produktivitas kantor kami."
+                    </p>
+                    <div class="flex items-center">
+                        <div
+                            class="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white font-bold mr-3">
+                            B
+                        </div>
+                        <div>
+                            <p class="font-semibold text-gray-900">Ahmad budianto</p>
+                            <p class="text-sm text-gray-600">PT. Alam Muliya</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-xl shadow-sm border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-accent">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4 italic">"Harga sewa yang kompetitif dengan kualitas mesin yang luar
+                        biasa. Maintenance gratis juga sangat membantu. Highly recommended!"</p>
+                    <div class="flex items-center">
+                        <div
+                            class="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white font-bold mr-3">
+                            S
+                        </div>
+                        <div>
+                            <p class="font-semibold text-gray-900">Karsih </p>
+                            <p class="text-sm text-gray-600">Depan SMP PGRI 01 Kasembon</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-xl shadow-sm border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-accent">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4 italic">"Proses sewa mudah dan cepat. Tim support sangat tanggap membantu
+                        ketika ada kendala. Mesin selalu dalam kondisi prima!"</p>
+                    <div class="flex items-center">
+                        <div
+                            class="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white font-bold mr-3">
+                            A
+                        </div>
+                        <div>
+                            <p class="font-semibold text-gray-900">Ahmad Fauzi</p>
+                            <p class="text-sm text-gray-600">CV. Berkah Sejahtera</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-900 text-gray-400 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="text-white font-bold mb-4">Rental Fotocopy jombang</h3>
+                    <p class="text-sm">Penyedia solusi sewa mesin fotocopy terpercaya di Jombang sejak 2015</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Layanan</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-white transition">Sewa Mesin</a></li>
+                        <li><a href="#" class="hover:text-white transition">Maintenance</a></li>
+                        <li><a href="#" class="hover:text-white transition">Konsultasi</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Kontak</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>Telepon: +62 83812558000</li>
+                        <li>WhatsApp: <a href="https://wa.me/628978349000" target="_blank"
+                                rel="noopener noreferrer">+628978349000</a></li>
+                        <li><a<a href="mailto:alvadigitalmediacopier@gmail.com" class="">EMAIL</a>
+                <span>•</span>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Ikuti Kami</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="shopee.co.id/alvamedia16" target="_blank"
+                                rel="noopener noreferrer" class="hover:text-white transition">🛒 <b>SHOPEE</b></a></li>
+                        <li><a href="" target="_blank" rel="noopener noreferrer"
+                                class="hover:text-white transition">🛍️ <b>TOKOPEDIA</b></a></li>
+                        <li><a href="" target="_blank"
+                                rel="noopener noreferrer" class="hover:text-white transition">🎵 <b>TIKTOK</b></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-sm">&copy; 2020 Rental Mesin Fotocopy Jombang. All rights reserved.</p>
+                <div class="flex gap-6 mt-4 md:mt-0">
+                    <a href="https://shopee.co.id/alvamedia16" target="_blank" rel="noopener noreferrer"
+                        class="text-gray-400 hover:text-white transition">Shopee</a>
+                    <a href=" target="_blank" rel="noopener noreferrer"
+                        class="text-gray-400 hover:text-white transition">Tokopedia</a>
+                    <a href="https://www.tiktok." target="_blank" rel="noopener noreferrer"
+                        class="text-gray-400 hover:text-white transition">TikTok</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Back to Top Button -->
+    <button id="backToTop" title="Back to top">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+        </svg>
+    </button>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        // Back to Top Button Functionality
+        const backToTopButton = document.getElementById('backToTop');
+
+        // Show button when page is scrolled down
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.add('show');
+            } else {
+                backToTopButton.classList.remove('show');
+            }
+        });
+
+        // Scroll to top when button is clicked
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+
+</html>
